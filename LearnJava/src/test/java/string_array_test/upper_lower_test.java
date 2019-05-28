@@ -1,0 +1,22 @@
+package string_array_test;
+
+public class upper_lower_test {
+
+	public static void main(String[] args) {
+		String x="Vmetry";
+		char ch[]=x.toCharArray();
+		
+		for(int i=0;i<ch.length;i++){
+		char data=ch[i];
+		String value=data+"";
+		
+		if()
+		
+		
+		System.out.println(data + " ");
+		
+		}
+		
+	}
+
+}

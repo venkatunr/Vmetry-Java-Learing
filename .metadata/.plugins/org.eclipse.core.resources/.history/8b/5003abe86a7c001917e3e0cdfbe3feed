@@ -1,0 +1,20 @@
+package collection;
+
+import java.util.Enumeration;
+import java.util.Hashtable;
+
+public class HashTableClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Hashtable<String, String> ht= new Hashtable<String, String>();
+		ht.put("asld", "naveen");
+		ht.put("wsc" , "Vinoth");
+		ht.put("ujn", "uhg");
+		ht.put("search", "google");
+		
+		Enumeration<String> e=ht.keys();
+		
+	}
+
+}

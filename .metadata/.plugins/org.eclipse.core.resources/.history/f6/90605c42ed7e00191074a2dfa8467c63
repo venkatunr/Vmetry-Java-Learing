@@ -1,0 +1,10 @@
+package string_litertal;
+
+public class StringLiterlTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package collection;
+
+import java.util.HashMap;
+
+public class HashMapClass {
+
+	
+	public static void main(String[] args) {
+	
+		HashMap hm=new HashMap();
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package collection;
+
+import java.util.ArrayList;
+
+public class ArrayListClass {
+
+	public static void main(String[] args) {
+		ArrayList alc=new ArrayList();
+		alc.add("asdfs");
+		alc.add("asasa");
+		alc.add("1243");
+		alc.add("asd");
+		
+		int len=alc.size();
+		for(int i=0;i<len;i++){
+			System.out.println(alc.get(i));
+		}
+
+	}
+
+}

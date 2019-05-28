@@ -1,0 +1,17 @@
+package string_programs;
+
+public class ReverseStringprog {
+
+	public static void getstr(String str){
+		int ln=str.length();
+		for(int i=str.length();i>0;i--){
+			
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+		getstr("venkat");
+	}
+
+}

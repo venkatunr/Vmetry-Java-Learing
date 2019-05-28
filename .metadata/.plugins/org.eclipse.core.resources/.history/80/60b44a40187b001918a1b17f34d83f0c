@@ -1,0 +1,21 @@
+package file_handling;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Properties;
+
+public class PropertiesFileHandling {
+
+	public static void main(String[] args) throws IOException {
+		
+		File f=new File("D:\\Vmetry\\LearnJava\\File\\config.Properties");
+		if(!f.exists()){
+			f.createNewFile();
+		}
+		
+		Properties prop=new Properties();
+		
+		
+		
+	}
+}

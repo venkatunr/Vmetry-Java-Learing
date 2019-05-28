@@ -1,0 +1,13 @@
+package string_programs;
+
+public class DuplicateChar {
+
+	public static void main(String[] args) {
+
+	}
+
+	public static void dupchar(char c){
+		
+	}
+	
+}

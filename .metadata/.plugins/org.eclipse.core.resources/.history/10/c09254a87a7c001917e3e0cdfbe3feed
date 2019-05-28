@@ -1,0 +1,11 @@
+package string_programs;
+
+public class Ascending_Desecing {
+
+	public static void main(String[] args) {
+		int number[]={212,3121,312434,567,788,97,4,37,55}
+		
+
+	}
+
+}

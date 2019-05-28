@@ -1,0 +1,12 @@
+package exception_handling;
+
+public class TryCatchTest {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Exception Handling Initiated");
+		System.out.println("Exception Hanling Completed");
+
+	}
+
+}

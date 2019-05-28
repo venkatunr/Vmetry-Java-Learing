@@ -1,0 +1,22 @@
+package collection;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class HashSetClass {
+
+	public static void main(String[] args) {
+		
+	Set<String> set=new HashSet<String>();
+	set.add("qwer");
+	set.add("qwer");
+	set.add("abcd");
+	set.add("abcd");
+	set.add(null);
+	set.add(null);
+	
+	System.out.println(set);
+	
+	}
+
+}

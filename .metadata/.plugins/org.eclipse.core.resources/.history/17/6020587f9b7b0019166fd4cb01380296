@@ -1,0 +1,34 @@
+package collection;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class ArrayListClass {
+	
+	//TO overcome issues from array,Collection option is created 
+	//issues in Array
+			//1)Size is fixed 
+			//2)Similar data types only allows in Array
+			//3)There will be memmory westage issue.if we allocated memmory as 100 value and assignes value is only 10 and there will be memory occupied for remaining 90 values 
+	
+	//Overcome in ArrayList
+		//1)Memory will be created whenever we add the values in arraylist.
+		//2)We can add n number of values 
+		//3)It will allow all datatypes in the form of Generics and non Generics.
+
+	public static void main(String[] args) {
+		ArrayList<String> alc=new ArrayList<String> ();
+		alc.add("asdfs");
+		alc.add("asasa");
+		alc.add(1243);
+		alc.add("asd");
+		System.out.println(alc);
+		int len=alc.size();
+		for(int i=0;i<len;i++){
+			System.out.println(alc.get(i));
+		}
+		Collections.sort(alc);
+		System.out.println(alc);
+	}
+
+}

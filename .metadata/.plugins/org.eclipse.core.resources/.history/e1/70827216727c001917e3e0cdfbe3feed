@@ -1,0 +1,27 @@
+package string_programs;
+
+public class LargestAndSmallets {
+
+	public static void largeAndSmall(int i){
+		
+	}
+	public static void main(String[] args) {
+	
+		int[] number={ 123, 432,231,67,9864,11,21,43};
+		int largest =number[0];
+		int smaller =number[0];
+		
+		for(int i=0;i<number.length;i++){
+			if(number[i]>largest){
+				
+			}
+			else if(number[i]<smaller){
+				
+			}
+		}
+		
+	
+
+	}
+
+}

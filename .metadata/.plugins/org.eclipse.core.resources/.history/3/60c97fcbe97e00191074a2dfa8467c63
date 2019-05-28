@@ -1,0 +1,10 @@
+package log_file_test;
+
+public class LogfileTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

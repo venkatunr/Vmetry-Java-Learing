@@ -1,0 +1,15 @@
+package collection;
+
+import java.util.LinkedHashMap;
+
+public class LinkedHashMapClass {
+
+	public static void main(String[] args) {
+	LinkedHashMap lhm=new LinkedHashMap();
+	lhm.put("string", "value");
+	lhm.put("tring", "value");
+	lhm.put("ring", "value");
+	lhm.put("ng", "value");
+}
+}
+

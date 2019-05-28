@@ -1,0 +1,22 @@
+package string_programs;
+
+public class Integerprogram {
+
+	public static void setup(int val){
+		
+		int a;
+		int count=0;
+		while(val>0){
+			a=val%10;
+			count=count+(a*a*a);
+			val=val/10;
+			
+		}
+		
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

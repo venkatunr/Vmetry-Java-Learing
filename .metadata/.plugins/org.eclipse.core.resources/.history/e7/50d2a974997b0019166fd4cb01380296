@@ -1,0 +1,11 @@
+package collection;
+
+public class ArrayListClass {
+
+	public static void main(String[] args) {
+		ArrayListClass alc=new ArrayListClass();
+		
+
+	}
+
+}

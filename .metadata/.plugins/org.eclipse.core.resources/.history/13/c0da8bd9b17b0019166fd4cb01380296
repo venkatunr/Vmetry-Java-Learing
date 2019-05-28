@@ -1,0 +1,20 @@
+package collection;
+
+import java.util.LinkedList;
+
+public class LinkedListClass {
+
+	public static void main(String[] args) {
+
+		LinkedList ll=new LinkedList();
+		ll.add("sas");
+		ll.add("sa");
+		ll.add("ss");
+		ll.add("as");
+		ll.add("s");
+		ll.add("s");
+		
+		
+	}
+
+}

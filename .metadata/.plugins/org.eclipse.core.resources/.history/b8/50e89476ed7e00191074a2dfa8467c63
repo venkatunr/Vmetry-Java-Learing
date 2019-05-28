@@ -1,0 +1,14 @@
+package string_litertal;
+
+public class StringLiterlTest {
+
+	public static void main(String[] args) {
+		String a="Vmetry";
+		String b="Vmetry";
+		String c=new String();
+		
+		
+
+	}
+
+}

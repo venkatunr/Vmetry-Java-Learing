@@ -1,0 +1,18 @@
+package string_programs;
+
+public class Integerprogram {
+
+	public static void setup(int val){
+		
+		
+		while(val>0){
+			
+		}
+		
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

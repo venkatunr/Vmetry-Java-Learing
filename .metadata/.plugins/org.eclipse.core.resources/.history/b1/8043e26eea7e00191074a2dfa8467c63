@@ -1,0 +1,15 @@
+package log_file_test;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class LogfileTest {
+
+	public static Logger log=LoggerFactory.getLogger(LogfileTest.class); 
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

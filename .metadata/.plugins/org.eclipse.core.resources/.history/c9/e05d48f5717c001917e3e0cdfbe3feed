@@ -1,0 +1,16 @@
+package string_programs;
+
+public class LargestAndSmallets {
+
+	public static void largeAndSmall(int i){
+		
+	}
+	public static void main(String[] args) {
+	
+		int[] i={ 123, 432,231,67,9864,11,21,43};
+		int largest =i[1];
+		
+
+	}
+
+}

@@ -1,0 +1,93 @@
+package string_programs;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
+
+public class DuplicateWordandOccurance {
+
+	public static void doublicateWord(String inputstring){
+	
+	String[] words=inputstring.split(" ");
+	
+	HashMap<String,Integer> hm=new HashMap<String,Integer>();
+	
+	for (String iword : words) {
+		if(hm.containsKey(iword)){
+			hm.put(iword, hm.get(iword)+1);
+		}
+		else{
+			hm.put(iword, 1);
+		}
+	}
+	
+	Set<String> set=hm.keySet();
+	
+	for (String string : set) {
+		if(hm.get(string)>1){
+			
+		}
+	}
+	
+	
+	
+	
+	}
+	
+	
+	public static void main(String[] args) {
+		doublicateWord("Super Man Bat Man Super Man");
+		doublicateWord("Bread butter and Bread");
+	}
+
+//	public static void doublicateWord1(String inputstring){
+//	  int count;  
+//      
+//	  String[] words=inputstring.split(" ");
+//        
+//      System.out.println("Duplicate words in a given string : ");   
+//      for(int i = 0; i < words.length; i++) {  
+//          count = 1;  
+//          for(int j = i+1; j < words.length; j++) {  
+//              if(words[i].equals(words[j])) {  
+//                  count++;  
+//                  //Set words[j] to 0 to avoid printing visited word  
+//                  words[j] = "0";  
+//              }  
+//          }  
+//            
+//          //Displays the duplicate word if count is greater than 1  
+//          if(count > 1 && words[i] != "0")  
+//              System.out.println(words[i]+ ":" +count);  
+//      }  
+//	}
+}
+
+//public static void doublicateWord(String inputstring){
+//
+//String[] words=inputstring.split(" ");
+//
+//HashMap<String, Integer> wordCount = new HashMap<String, Integer>();
+//
+//for (String word : words)
+//{
+//    if(wordCount.containsKey(word))
+//    {
+//        wordCount.put(word, wordCount.get(word)+1);
+//    }
+//    else
+//    {
+//        wordCount.put(word, 1);
+//    }
+//}
+//
+//Set<String> wordsInString = wordCount.keySet();
+//
+//for (String word : wordsInString)
+//{
+//    if(wordCount.get(word) > 1)
+//    {
+//    	System.out.println(word+" : "+wordCount.get(word));
+//    }
+//}
+//}

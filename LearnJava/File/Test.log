@@ -1,0 +1,4 @@
+2019-05-25 18:18:52.467 INFO  LogfileTest:15 - I am first INFO
+2019-05-25 18:18:52.470 ERROR LogfileTest:16 - I am first Error
+2019-05-25 18:19:08.770 INFO  LogfileTest:15 - I am first INFO
+2019-05-25 18:19:08.774 ERROR LogfileTest:16 - I am Second Error

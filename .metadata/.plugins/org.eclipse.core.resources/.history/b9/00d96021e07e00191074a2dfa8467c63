@@ -1,0 +1,14 @@
+package file_handling;
+
+import java.io.File;
+import java.io.FileInputStream;
+
+public class CreateCellTestInExcel {
+
+	public static void main(String[] args) {
+		File f=new File("D:\\Vmetry\\LearnJava\\File\\Book1.xlsx");
+		FileInputStream fis=new FileInputStream(f);
+		
+	}
+
+}

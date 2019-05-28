@@ -1,0 +1,11 @@
+package collection;
+
+import java.util.LinkedHashMap;
+
+public class LinkedHashMapClass {
+
+	public static void main(String[] args) {
+	LinkedHashMap lhm=new LinkedHashMap();
+}
+}
+

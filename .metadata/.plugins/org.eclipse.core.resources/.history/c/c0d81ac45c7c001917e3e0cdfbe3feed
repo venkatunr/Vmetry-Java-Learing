@@ -1,0 +1,29 @@
+package collection;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
+
+public class HashMapClass {
+
+	
+	public static void main(String[] args) {
+	
+		HashMap<Integer,String> hm=new HashMap<Integer,String>();
+		
+		hm.put(1, "Syncfusion");
+		hm.put(5, "Software");
+		hm.put(3, "Private");
+		hm.put(4, "Limited");
+		
+		Set<Integer> st=hm.keySet();
+		Iterator<Integer> it=st.iterator();
+				while(it.hasNext()){
+					Integer str=it.next();
+					System.out.println(str +"==>"+ hm.get(str));
+				}
+
+		
+	}
+
+}

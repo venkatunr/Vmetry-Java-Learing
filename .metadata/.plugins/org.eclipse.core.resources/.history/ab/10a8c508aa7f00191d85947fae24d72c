@@ -1,0 +1,15 @@
+package throws_test;
+
+public class ThrowsTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void readFile(){
+		File f=new File(" ");
+		
+	}
+
+}

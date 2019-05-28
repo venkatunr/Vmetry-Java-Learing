@@ -1,0 +1,37 @@
+package exception_handling;
+
+public class TrowableTest {
+
+	public static void main(String[] args) {
+		System.out.println("Exception Handling Test Initiated");
+		try
+		{
+			int[] a=new int[2];
+			a[0]=10;
+			a[1]=20;
+			a[2]=30;
+			
+			int i=1/0;
+		}
+		
+		catch(ArithmeticException e){
+			System.out.println("alert :Your Input is Wrong"+ e.getMessage());
+		}
+		
+		catch(ArrayIndexOutOfBoundsException e){
+			System.out.println("alert :Your index is outBound"+ e.getMessage());
+		}
+		
+		catch(Exception e){
+			System.out.println("Alert: sorry something went wrong");
+		}
+		catch(Throwable t ){
+			System.out.println("Alert: Resource shortage" + t.getMessage());
+		}
+		
+		System.out.println("Exception Hanling Test Completed");
+	
+
+	}
+
+}

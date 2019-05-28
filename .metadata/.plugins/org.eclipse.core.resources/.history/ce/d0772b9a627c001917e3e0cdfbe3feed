@@ -1,0 +1,24 @@
+package collection;
+
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+
+public class LinkedHashMapClass {
+
+	public static void main(String[] args) {
+	LinkedHashMap<String,String> lhm=new LinkedHashMap<String,String>();
+	
+	lhm.put("ng", "value");
+	lhm.put("string", "value");
+	lhm.put("tring", "value");
+	lhm.put("ring", "value");
+	lhm.put("ng", "value");
+	
+	Iterator<String> it=lhm.keySet().iterator();
+	while(it.hasNext()){
+		String str=it.next();
+		System.out.println(str +"==>"+ lhm.get(str));
+	}
+}
+}
+
